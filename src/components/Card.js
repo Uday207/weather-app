@@ -11,7 +11,7 @@ import moment from 'moment';
 import React, { useState, useEffect } from 'react';
 
 function Card() {
-    const [defaultCity, setDefaultCity] = useState('Pune');
+    const [defaultCity] = useState('Pune');
     const [timeGap, setTimeGap] = useState(null);
     const [data, setData] = useState({
         city: "",
